@@ -1,28 +1,37 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+#subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
-  address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  #address: >
+    
 
 news: true  # includes a list of news items
-latest_posts: true  # includes a list of the newest posts
-selected_papers: true # includes a list of papers marked as "selected={true}"
+latest_posts: false  # includes a list of the newest posts
+selected_papers: True # includes a list of papers marked as "selected={true}"
+projects: True # includes a list of papers marked as "selected={true}"
+
 social: true  # includes social icons at the bottom of the page
+
+display_categories: [Research, Academic]
+horizontal: True
+
+
+
 ---
+Welcome to my portfolio website! I am an incoming graduate student at the University of California San Diego. I will pursue a Master of Science in Mechanical Engineering specializing in Control & Mechatronics.
 
-HEllllllllloooo!!!!!yelloooow.
+My academic journey began at Thapar Institute of Engineering and Technology (TIET) in Patiala, India, where I completed my Bachelor of Engineering in Mechatronics Engineering. I maintained a stellar GPA of 3.8 throughout my undergraduate years and was honored to be a Merit Scholarship holder during 2020-2022. 
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+As an ardent learner, I sought opportunities to complement my academic pursuits with practical experiences. I undertook research positions at various esteemed institutions, including Mechatronics LAB at TIET, TIET-Tel Aviv University Centre for Food Security (T2CEFS), Mechatronics Lab & Control Lab at IIT Patna, and AWaDH at IIT Ropar. These experiences allowed me to delve into fascinating projects such as designing robotic grippers, developing autonomous agricultural robots, and conducting hydrodynamic analysis of bio-inspired fishes, among others.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+It was during this time that my interest in robotics and automation flourished, sparking a passion for solving complex engineering challenges.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+In pursuit of expanding my knowledge and skills, I embarked on a transformative academic journey abroad, obtaining a Master 2 Level Diploma in Constraint Programming with Applications to Mobile Robotics from ROBEX, Lab-STICC, ENSTA Bretagne in France. This experience broadened my horizons and deepened my expertise in robotics software engineering.
+
+Beyond academics and engineering, I firmly believe in giving back to society. I have volunteered with NGOs, assisting in educational projects and teaching underprivileged students. These experiences have shaped me into a well-rounded individual, emphasizing the importance of empathy and social responsibility.

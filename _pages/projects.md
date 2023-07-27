@@ -1,12 +1,14 @@
 ---
 layout: page
 title: Projects
-permalink: /projects/
+permalink: /Projects/
 description: A growing collection of your cool projects.
 nav: true
-nav_order: 2
-display_categories: [work, fun]
-horizontal: false
+nav_order: 1
+display_categories: [Research, Academic]
+horizontal: False 
+
+
 ---
 
 <!-- pages/projects.md -->

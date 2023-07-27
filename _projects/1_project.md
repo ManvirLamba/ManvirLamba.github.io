@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 1
+title: Soft Pneumatic-Controlled, Finger-Inspired Robotic Gripper
 description: a project with a background image
 img: assets/img/12.jpg
 importance: 1
-category: work
+category: Research
 ---
 
 Every project has a beautiful feature showcase page.

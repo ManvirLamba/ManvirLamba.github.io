@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 4
+title: Swarming of UAVs and Rovers for Precision Pest Control and Harvesting 
 description: another without an image
-img:
-importance: 3
-category: fun
+img: 
+importance: 4
+category: Research
 ---
 
 Every project has a beautiful feature showcase page.

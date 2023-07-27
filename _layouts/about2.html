@@ -39,74 +39,53 @@ layout: default
           <div class="clearfix">
             {{ content }}
           </div>
+        
 
-
-
-          <!-- Latest posts -->
-          {% if page.latest_posts -%}
-            <h2><a href="{{ '/blog/' | relative_url }}" style="color: inherit;">latest posts</a></h2>
-            {%- include latest_posts.html %}
-          {%- endif %}
-      <section id="Publications" class="Publications" >
-            <div class="container" data-aos="fade-up">
-              <div class="section-title">
-
-              </div>
-            <div>
-
-          <!-- Selected papers -->
-          {% if page.selected_papers -%}
-            <h2><a href="{{ '/publications/' | relative_url }}" style="color: inherit;">Publications</a></h2>
-            {%- include selected_papers.html %}
-          {%- endif %}
-
-                            </div>
-            </div>
-
-
-         
-          </section>
-
-      <section id="Projects" class="Projects" >
-            <div class="container" data-aos="fade-up">
-              <div class="section-title">
-
-              </div>
-            <div>
-          
           <!-- Projects -->
           {% if page.projects -%}
             <h2><a href="{{ '/Projects/' | relative_url }}" style="color: inherit;">Projects</a></h2>
             {%- include project.html %}
           {%- endif %}
 
-                            </div>
-            </div>
-
+          <!-- Latest posts -->
+          {% if page.latest_posts -%}
+            <h2><a href="{{ '/blog/' | relative_url }}" style="color: inherit;">latest posts</a></h2>
+            {%- include latest_posts.html %}
+          {%- endif %}
 
          
-          </section>
 
+         
+           <!-- Selected papers -->
+          {% if page.selected_papers -%}
+            <h2><a href="{{ '/publications/' | relative_url }}" style="color: inherit;">Publications</a></h2>
+            {%- include selected_papers.html %}
+          {%- endif %}
 
-      <section id="News" class="News" >
+          <section id="News" class="News" >
             <div class="container" data-aos="fade-up">
               <div class="section-title">
 
               </div>
             <div>
-          <!-- News -->
-          {% if page.news and site.announcements.enabled -%}
+
+         
+
+
+
+
+            <!-- News -->
+            {% if page.news and site.announcements.enabled -%}
             <h2><a href="{{ '/news/' | relative_url }}" style="color: inherit;">News</a></h2>
             {%- include news.html limit=true %}
-          {%- endif %}
-
-                  </div>
+            {%- endif %}
+           
+            </div>
             </div>
 
 
          
           </section>
-
           <!-- Social -->
           {%- if page.social %}
             <div class="social">
