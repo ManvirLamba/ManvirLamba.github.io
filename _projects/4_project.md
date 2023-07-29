@@ -1,80 +1,90 @@
 ---
 layout: page
 title: Swarming of UAVs and Rovers for Precision Pest Control and Harvesting 
-description: another without an image
-img: 
+description: 
+img: assets/img/swarm/ezgif.com-crop.gif
 importance: 4
 category: Research
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+<p align="justify">Crop inspection and pesticide spraying have traditionally been labor-intensive, leading to inaccuracies and inefficiencies. This not only harms the crops but also results in water and soil pollution, impacting crop quality and human health. To address these challenges, we propose a groundbreaking solution utilizing precision agriculture techniques.
+Applying precision agriculture through a single large robot is impractical due to its lack of scalability, high cost, and negative environmental impact. To overcome these limitations, we turn to the concept of Swarm Intelligence – a team of small-sized, inexpensive UAVs working together collaboratively to achieve a specific task.</p>
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+<h2>Algorithm for Swarming of UAVs for disease detection and
+precision pest control</h2>
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+
+
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/swarm/ezgif.com-video-to-gif.gif"  %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    Simulation of the algorithm
 </div>
+
+<p align="justify">
+This algorithm emulates the swarm behavior found in social creatures like honey bees. By categorizing the UAVs into employed and onlooker bees, we enable them to efficiently scan the cauliflower field for disease and pests. The employed bees identify infected plants and pass on the information to the onlooker bees, who then proceed to spray precision pesticides, thereby optimizing the entire process.</p>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/swarm/drone.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/swarm/DroneAlgo.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    
+</div>
+<div class="caption">
+    (a)CAD model of the UAV (b)Flow chart of the Modified Bee algorithm of Employed Bee(EB) and Onlooker Bee(OB)
+</div>
+
+
+<p align="justify">
+This innovative algorithm ensures real-time collaboration between the employed and onlooker bees, eliminating the need for them to return to a central workstation. As a result, tasks are completed faster and more effectively. Additionally, the algorithm avoids the random selection of starting locations, ensuring no portions of land are missed, and eliminating the requirement for scout bees.</p>
+<p align="justify">
+By leveraging swarm intelligence and advanced geospatial techniques, this solution delivers scalability, accuracy, flexibility, and environmental friendliness. It not only revolutionizes the way we approach precision agriculture but also holds the potential to significantly improve crop health, reduce pesticide usage, and enhance overall agricultural sustainability.
+Our improved version of the Artificial Bee Algorithm empowers the UAV swarm to change roles based on environmental conditions and other agents' behavior, further optimizing the task allocation and collaborative manipulation processes. This results in a more efficient and easy-to-maintain system.</p>
+<h2>Algorithm for Swarming Autonomous Robots for Cauliflower
+Harvesting</h2>
+<div class="row">
+        <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/swarm/ezgif.com-video-to-gif (1).gif"  %}
     </div>
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
+    Simulation of the algorithm
 </div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
-
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+<p align="justify">
+Cauliflower harvesting has long been a laborious task, demanding significant manual effort. Currently, giant machines assist in the process, but this approach proves non-scalable, expensive, and environmentally unfriendly. These large machines not only pose transportation challenges but also damage the soil structure, requiring additional manual intervention during the harvest. To address these issues, we present an innovative solution: a swarm of small-sized, inexpensive robots working collaboratively to revolutionize the cauliflower harvesting process.
+</p>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/swarm/roverrr.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/swarm/roverAlgo.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
+    
 </div>
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+    (a)CAD model of the Robot (b)Flow chart of the Swarming algorithm 
 </div>
+<p align="justify">
+This solution leverages the power of swarm intelligence, where the collective behavior of social creatures inspires a decentralized control system. The robots autonomously interact with each other and their environment to achieve the desired outcome. This swarming effect enables faster, accurate, and more flexible harvesting, all while being environmentally friendly.
+</p>
+<p align="justify">
+At the core of our solution lies a meticulously designed swarm algorithm, specifically tailored for cauliflower harvesting. Inspired by the behavior of social creatures, our algorithm ensures efficient task division and self-organization to adapt to changing conditions without requiring centralized supervision.
+</p>
+<p align="justify">
+The harvester returns to the base, empties the trolly, and prepares for the next assignment.
+Repeat these steps until all lines are marked complete.
+By harnessing the power of swarm robotics, our algorithm optimizes the cauliflower harvesting process. It ensures that the robots work harmoniously, maximizing efficiency and minimizing manual intervention. The decentralized nature of the swarm guarantees scalability and adaptability, making it a highly effective and sustainable solution for harvesting cauliflower.
+</p>
 
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
 
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}
+

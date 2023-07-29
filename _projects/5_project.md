@@ -3,8 +3,8 @@ layout: page
 title: Trajectory tracking of 4-DOF robot manipulator a bond graph approach 
 description: a project with a background image
 img: assets/img/1.jpg
-importance: 5
-category: Research
+importance: 2
+category: Other
 ---
 
 Every project has a beautiful feature showcase page.

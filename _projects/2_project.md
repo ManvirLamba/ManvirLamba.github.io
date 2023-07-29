@@ -3,7 +3,7 @@ layout: page
 title: Autonomuos Agricultural Weed Removal Robot
 description: A robot developed as a Final Year Capstone Project under the TIET-TAU Center of Excellence for Food Security
 redirect: https://sites.google.com/view/a2wr2/home?authuser=0
-img: assets/img/3.jpg
+img: assets/img/rover.gif
 importance: 2
 category: Research
 ---
