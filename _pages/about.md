@@ -25,7 +25,7 @@ horizontal: True
 
 ---
 <p align="justify">
-Welcome to my portfolio website! I am a graduate student at the University of California San Diego. I will pursue a Master of Science in Mechanical Engineering specializing in Control & Mechatronics.
+Welcome to my portfolio website! I am a graduate student at the University of California San Diego. I am pursing a Master of Science in Mechanical Engineering specializing in Control & Mechatronics.
 </p>
 <p align="justify">
 My academic journey began at Thapar Institute of Engineering and Technology (TIET) in Patiala, India, where I completed my Bachelor of Engineering in Mechatronics Engineering. 
